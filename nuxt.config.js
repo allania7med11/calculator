@@ -31,7 +31,8 @@ export default {
   */
   plugins: [
     "@/plugins/global",
-    { src: "@/plugins/aos.js", mode: "client" }
+    { src: "@/plugins/aos.js", mode: "client" },
+    { src: "~plugins/ga.js", mode: "client" }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -46,8 +47,12 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: "https://calculator.effectivewebapp.com/",
+  },
   fontawesome: {
     imports: [
       {
