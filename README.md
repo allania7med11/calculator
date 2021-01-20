@@ -3,7 +3,9 @@
 **Version 1.0.0**
 
 this application cover your need for any calculation from simple to advance one where you can find:
+
 *In standard view, all basic calculations such as addition, subtraction, multiplication, and division
+
 *In scientific view ,more advance scientific operation such as trigonometric, logarithmic, and exponential functions...
 
 
